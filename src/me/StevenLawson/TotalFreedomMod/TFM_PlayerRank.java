@@ -16,6 +16,12 @@ public enum TFM_PlayerRank
     TELNET("a " + ChatColor.DARK_GREEN + "Super Telnet Admin", ChatColor.DARK_GREEN + "[STA]"),
     SENIOR("a " + ChatColor.LIGHT_PURPLE + "Senior Admin", ChatColor.LIGHT_PURPLE + "[SrA]"),
     OWNER("the " + ChatColor.BLUE + "Owner", ChatColor.BLUE + "[Owner]"),
+    SYSTEMOWNER("a " + ChatColor.DARK_BLUE + "System Owner", ChatColor.DARK_BLUE + "[SystemOwner]"),
+    SYSTEMOWNERLEADDEV("a " + ChatColor.DARK_BLUE + "System Owner And Lead Dev", ChatColor.DARK_BLUE + "[SystemOwnerAndLeadDev]"),
+    SYSADMIN("a " + ChatColor.DARK_RED + "System Admin", ChatColor.DARK_RED + "[System Admin]"),
+    EXECUTIVE("a " + ChatColor.RED + "Executive Admin", ChatColor.RED + "[Executive Admin]"),
+    COOWNER("a " + ChatColor.BLUE + "Co Owner", ChatColor.BLUE + "[Co Owner]"),
+    PROMOTOR("a " + ChatColor.PURPLE + "Promotor", ChatColor.PURPLE + "[Promotor]"),
     CONSOLE("The " + ChatColor.DARK_PURPLE + "Console", ChatColor.DARK_PURPLE + "[Console]");
     private String loginMessage;
     private String prefix;
