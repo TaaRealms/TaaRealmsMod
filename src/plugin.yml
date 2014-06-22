@@ -1,6 +1,6 @@
-name: TotalFreedomMod
+name: TaaRealmsMod
 main: me.StevenLawson.TotalFreedomMod.TotalFreedomMod
-version: 4.3
+version: 4.4
 description: Plugin for the Total Freedom server.
 softdepend: [BukkitTelnet, DisguiseCraft, WorldEdit, Essentials]
 authors: [Madgeek1450, DarthSalamon]
